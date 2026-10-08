@@ -1,0 +1,12 @@
+# Personal profiles never go into git; the demo profile is profiles/demo.json.
+profiles/*.local.json
+
+# Personal builds, local screenshots, scratch work.
+dist/
+.local-shots/
+.work/
+_plans/
+*.local.*
+scripts/private-markers.local
+.DS_Store
+node_modules/

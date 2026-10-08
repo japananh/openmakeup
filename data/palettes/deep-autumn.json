@@ -1,0 +1,1747 @@
+{
+ "id": "deep-autumn",
+ "name": [
+  "Thu đậm",
+  "Deep Autumn"
+ ],
+ "native": "가을 딥",
+ "summary": [
+  "Thu đậm có tông ấm trung tính, trầm và sâu, độ tương phản từ trung bình đến cao. Màu hợp là màu đất, hồng nâu, gạch và nâu cacao; màu quá nhạt, lạnh hoặc rực dễ lệch.",
+  "Deep Autumn is warm-neutral, muted and deep, with medium to high contrast. It suits earthy tones, rose browns, brick and cocoa; colours that are too pale, cool or vivid tend to clash."
+ ],
+ "cats": [
+  {
+   "id": "nen",
+   "name": [
+    "Kem nền / Cushion",
+    "Foundation / Cushion"
+   ],
+   "short": [
+    "Nền",
+    "Base"
+   ],
+   "lead": [
+    "Chọn nền gần tông da, sáng hơn tối đa khoảng 1 tông, undertone trung tính. Nền ngả vàng làm da ngả vàng.",
+    "Pick a base close to skin, at most about one shade lighter, with a neutral undertone. A yellow-leaning base turns skin yellow."
+   ],
+   "good": [
+    {
+     "n": [
+      "Sáng hơn da nửa tông",
+      "Half a shade lighter than skin"
+     ],
+     "rel": [
+      2.0,
+      -1.5,
+      0
+     ],
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Sáng hơn da 1 tông",
+      "One shade lighter than skin"
+     ],
+     "rel": [
+      4.0,
+      -0.5,
+      2
+     ],
+     "occ": "dwh",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Sáng hơn da khoảng 1,5 tông",
+      "About 1.5 shades lighter than skin"
+     ],
+     "rel": [
+      6.0,
+      -1.5,
+      2
+     ],
+     "occ": "dw",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Sáng hơn da hơn 1 tông",
+      "A bit over one shade lighter than skin"
+     ],
+     "rel": [
+      5.0,
+      -1.0,
+      1
+     ],
+     "occ": "dwh",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Đúng tông da",
+      "Matches skin"
+     ],
+     "rel": [
+      -0.5,
+      0.5,
+      -1
+     ],
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Đậm hơn da nửa tông, khi da rám",
+      "Half a shade deeper than skin, for tanned skin"
+     ],
+     "rel": [
+      -3.0,
+      0.5,
+      -2
+     ],
+     "occ": "dp",
+     "role": "",
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Ngả vàng nhẹ",
+      "Yellow-leaning"
+     ],
+     "rel": [
+      -1.5,
+      11.5,
+      8
+     ],
+     "why": [
+      "Nền ngả vàng làm da ngả vàng. Chỉ cân nhắc khi da rám.",
+      "A yellow-leaning base turns skin yellow. Consider it only on tanned skin."
+     ]
+    },
+    {
+     "n": [
+      "Ngả vàng, đậm hơn da 1 tông",
+      "Yellow-leaning, a shade deeper than skin"
+     ],
+     "rel": [
+      -7.5,
+      16.0,
+      7
+     ],
+     "why": [
+      "Nền ngả vàng làm da ngả vàng, lệch màu cổ.",
+      "A yellow-leaning base turns skin yellow and mismatches the neck."
+     ]
+    },
+    {
+     "n": [
+      "Vàng nghệ",
+      "Turmeric yellow"
+     ],
+     "rel": [
+      0.0,
+      20.5,
+      15
+     ],
+     "why": [
+      "Quá vàng, dễ ngả cam sau khi oxy hóa.",
+      "Too yellow, and tends to turn orange once it oxidises."
+     ]
+    },
+    {
+     "n": [
+      "Be hồng lạnh",
+      "Cool pink beige"
+     ],
+     "rel": [
+      2.5,
+      -3.0,
+      -30
+     ],
+     "why": [
+      "Hồng lạnh. Nếu da có nền đỏ thì cộng lại thành mặt ửng hồng xám.",
+      "Cool pink. On skin with a red base it adds up to a greyish pink flush."
+     ]
+    },
+    {
+     "n": [
+      "Trắng sứ, sáng hơn da 2–3 tông",
+      "Porcelain white, 2–3 shades lighter than skin"
+     ],
+     "rel": [
+      9.5,
+      -9.0,
+      2
+     ],
+     "why": [
+      "Sáng hơn da 2–3 tông, mặt bệch và lộ ranh giới ở cằm.",
+      "2–3 shades lighter than skin: the face looks pale and a line shows at the jaw."
+     ]
+    },
+    {
+     "n": [
+      "Be xám ô liu",
+      "Grey olive beige"
+     ],
+     "rel": [
+      -13.0,
+      -13.0,
+      13
+     ],
+     "why": [
+      "Thiếu sắc, làm da xỉn và mệt.",
+      "Lacks colour and makes skin look dull and tired."
+     ]
+    }
+   ],
+   "guide": {
+    "title": [
+     "Chọn tông nền",
+     "Choosing a base shade"
+    ],
+    "rows": [
+     [
+      [
+       "Undertone",
+       "Undertone"
+      ],
+      [
+       "Chọn undertone trung tính, cùng hướng với da. Tránh nền ngả vàng: nó làm da ngả vàng. Hè da rám có thể chọn đậm hơn nửa tông.",
+       "Choose a neutral undertone that follows the skin. Avoid yellow-leaning bases: they turn skin yellow. In summer, tanned skin can go half a shade deeper."
+      ]
+     ],
+     [
+      [
+       "Da có nền đỏ",
+       "Red-based skin"
+      ],
+      [
+       "Che đỏ quanh mũi và má bằng che khuyết điểm be trung tính, hoặc lót xanh lá mint nhạt (pastel, ánh trong, không phải xanh dương), chấm rất mỏng chỉ ở vùng đỏ, rồi phủ che khuyết điểm be trung tính lên. Không phủ nền vàng để át đỏ: mặt sẽ thành vàng xỉn.",
+       "Cover redness around the nose and cheeks with a neutral beige concealer, or first dot a pale mint-green corrector (pastel and sheer, not blue) very thinly on the red area only, then layer neutral beige concealer over it. Do not hide redness with a yellow base: the face turns dull yellow."
+      ]
+     ],
+     [
+      [
+       "Cushion",
+       "Cushion"
+      ],
+      [
+       "Thường oxy hóa đậm lên nửa tông. Nếu phân vân giữa hai tông liền kề thì chọn tông sáng hơn cho cushion, tông đậm hơn cho kem nền lì.",
+       "It usually oxidises half a shade deeper. If you hesitate between two neighbouring shades, take the lighter for a cushion and the deeper for a matte foundation."
+      ]
+     ],
+     [
+      [
+       "Cách thử",
+       "How to test"
+      ],
+      [
+       "Quẹt 3 vệt dọc quai hàm, chờ 10–15 phút, xem dưới ánh sáng cửa sổ. Vệt nào \"biến mất\" là đúng.",
+       "Swipe 3 stripes along the jaw, wait 10–15 minutes and check in window light. The stripe that disappears is the match."
+      ]
+     ],
+     [
+      [
+       "Da dầu",
+       "Oily skin"
+      ],
+      [
+       "Nếu da đổ dầu: chỉ phủ phấn vùng chữ T, dặm bằng cách thấm dầu rồi vỗ lớp mỏng.",
+       "If skin gets oily: set only the T-zone with powder, and touch up by blotting the oil, then patting on a thin layer."
+      ]
+     ],
+     [
+      [
+       "Ký hiệu tham khảo",
+       "Reference labels"
+      ],
+      [
+       "Ký hiệu undertone trên nhãn (trung tính, ấm, lạnh) mỗi hãng đặt một kiểu, chỉ là gợi ý. Nếu da có nền đỏ: so thêm với tông lạnh cùng độ đậm tại quầy.",
+       "The undertone labels on a pack (neutral, warm, cool) differ by brand and are only a hint. On skin with a red base, also compare a cool shade of the same depth in store."
+      ]
+     ]
+    ],
+    "caveat": [
+     "Tên màu của hãng chỉ để tham khảo. Mỗi hãng đặt tên khác nhau và màu đổi theo lô, nên thử tại quầy hoặc dưới ánh sáng tự nhiên trước khi mua.",
+     "Brand shade names are a reference only. Each brand names shades differently and colours change between batches, so test in store or in natural light before buying."
+    ]
+   },
+   "finish": [
+    [
+     "Hè: matte-satin, lâu trôi, kiềm dầu. Một lớp mỏng, dặm thêm chỗ cần che.",
+     "Summer: matte-satin, long-wear, oil-control. One thin layer, build up only where needed."
+    ],
+    [
+     "Đông: satin hoặc glow nhẹ.",
+     "Winter: satin or a light glow."
+    ],
+    [
+     "Phấn phủ: loại trong hoặc be ấm, không dùng phấn trắng (dễ flashback xám khi chụp đèn).",
+     "Setting powder: translucent or warm beige. Avoid white powder, which easily flashes back grey under a camera flash."
+    ]
+   ],
+   "summer": [
+    "Nếu da dầu: primer kiềm dầu vùng chữ T. Cushion hoặc kem nền lâu trôi, phủ phấn mỏng, xịt khóa. Mang giấy thấm dầu thay vì dặm phấn chồng lớp.",
+    "If skin is oily: oil-control primer on the T-zone. Long-wear cushion or foundation, a thin layer of powder, then setting spray. Carry blotting paper instead of layering powder."
+   ],
+   "winter": [
+    "Nếu da khô: có thể pha 1 giọt dầu dưỡng vào kem nền. Phấn phủ chỉ ở chữ T.",
+    "If skin is dry: mix 1 drop of facial oil into the foundation. Set only the T-zone with powder."
+   ]
+  },
+  {
+   "id": "che",
+   "name": [
+    "Che khuyết điểm",
+    "Concealer"
+   ],
+   "short": [
+    "Che khuyết",
+    "Conceal"
+   ],
+   "lead": [
+    "Quầng mắt sáng hơn da khoảng 1 tông; chấm mụn và thâm đúng tông da hoặc tối hơn tối đa 1 tông (sáng hơn sẽ làm nốt mụn nổi lên); che đỏ bằng be trung tính.",
+    "Under-eye about one shade lighter than skin; spots and marks at skin tone or at most one shade deeper (lighter makes blemishes stand out); cover redness with neutral beige."
+   ],
+   "good": [
+    {
+     "n": [
+      "Sáng hơn da 1 tông, quầng mắt",
+      "One shade lighter than skin, for under-eye"
+     ],
+     "rel": [
+      3.5,
+      -1.0,
+      1
+     ],
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Đúng tông da, chấm mụn và thâm",
+      "Matches skin, for spots and marks"
+     ],
+     "rel": [
+      0.0,
+      0.0,
+      0
+     ],
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Sáng hơn da nửa tông, quầng nhẹ",
+      "Half a shade lighter than skin, for light under-eye shadow"
+     ],
+     "rel": [
+      2.5,
+      -1.0,
+      1
+     ],
+     "occ": "dwh",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Be đào rất nhẹ",
+      "Very light peach beige"
+     ],
+     "rel": [
+      2.0,
+      4.5,
+      -2
+     ],
+     "occ": "dwp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Đào, quầng nặng",
+      "Peach, for deep under-eye shadow"
+     ],
+     "rel": [
+      1.0,
+      8.5,
+      -3
+     ],
+     "occ": "p",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Tối hơn da nửa–1 tông, chấm mụn và thâm",
+      "Half to one shade deeper than skin, for spots and marks"
+     ],
+     "rel": [
+      -3.5,
+      3.5,
+      0
+     ],
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Be trung tính, che đỏ quanh mũi",
+      "Neutral beige, for redness around the nose"
+     ],
+     "rel": [
+      0.5,
+      -0.5,
+      1
+     ],
+     "occ": "dw",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Xanh mint nhạt, color correct đỏ",
+      "Pale mint, to colour-correct redness"
+     ],
+     "hex": "#d3e4c8",
+     "occ": "dwhp",
+     "role": [
+      "Color correct",
+      "Color correct"
+     ],
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Trắng ngà rất sáng",
+      "Very light ivory white"
+     ],
+     "rel": [
+      10.0,
+      -10.0,
+      3
+     ],
+     "why": [
+      "Sáng quá mức, phủ lên quầng thành vệt xám bạc.",
+      "Far too light: over under-eye shadow it turns into a silvery grey streak."
+     ]
+    },
+    {
+     "n": [
+      "Be vàng",
+      "Yellow beige"
+     ],
+     "rel": [
+      2.0,
+      14.5,
+      12
+     ],
+     "why": [
+      "Phủ lên vùng đỏ thành mảng vàng xỉn.",
+      "Over red areas it becomes a dull yellow patch."
+     ]
+    },
+    {
+     "n": [
+      "Hồng lạnh",
+      "Cool pink"
+     ],
+     "rel": [
+      1.0,
+      -1.0,
+      -68
+     ],
+     "why": [
+      "Làm quầng tím và vùng đỏ rõ hơn.",
+      "Makes purple under-eye shadow and red areas stand out more."
+     ]
+    },
+    {
+     "n": [
+      "Xanh lá color correct dày",
+      "Thick green color corrector"
+     ],
+     "hex": "#b9d3a8",
+     "why": [
+      "Dùng nhiều thành mảng xám; chỉ chấm rất mỏng lên vết đỏ.",
+      "Used heavily it turns into a grey patch. Dot it very thinly on red marks only."
+     ]
+    }
+   ],
+   "guide": {
+    "title": [
+     "Chọn tông che",
+     "Choosing a concealer shade"
+    ],
+    "rows": [
+     [
+      [
+       "Quầng mắt",
+       "Under-eye"
+      ],
+      [
+       "Sáng hơn da khoảng 1 tông, tông trung tính hoặc đào nhạt. Quầng thâm nâu-tím thì lót đào mỏng trước.",
+       "About one shade lighter than skin, neutral or pale peach. For brown-purple shadow, prime with a thin layer of peach first."
+      ]
+     ],
+     [
+      [
+       "Mụn, vết thâm",
+       "Spots and marks"
+      ],
+      [
+       "Đúng tông da hoặc tối hơn tối đa 1 tông; sáng hơn sẽ làm nốt mụn nổi lên.",
+       "At skin tone or at most one shade deeper. Lighter makes blemishes stand out."
+      ]
+     ],
+     [
+      [
+       "Vùng đỏ",
+       "Red areas"
+      ],
+      [
+       "Nếu da có nền đỏ: be trung tính vỗ mỏng, hoặc lót xanh lá mint nhạt (pastel, ánh trong, không phải xanh dương), chấm rất mỏng chỉ ở chỗ đỏ, rồi phủ che khuyết điểm be trung tính lên. Không dùng be vàng để át đỏ.",
+       "On skin with a red base: pat on a thin layer of neutral beige, or first dot a pale mint-green corrector (pastel and sheer, not blue) very thinly on the red spot only, then layer neutral beige concealer over it. Do not use yellow beige to hide redness."
+      ]
+     ]
+    ],
+    "caveat": [
+     "Tên màu của hãng chỉ để tham khảo, nên thử tại quầy hoặc dưới ánh sáng tự nhiên.",
+     "Brand shade names are a reference only, so test in store or in natural light."
+    ]
+   },
+   "finish": [
+    [
+     "Vùng mắt: dạng lỏng mỏng, có độ ẩm, tránh loại khô lì dễ hằn nếp.",
+     "Eye area: a thin, hydrating liquid. Avoid dry matte formulas that crease."
+    ],
+    [
+     "Vết mụn: dạng đặc, độ che cao. Chấm, vỗ mép, không tán rộng.",
+     "Blemishes: a thick, high-coverage formula. Dot it on, pat the edges, do not spread wide."
+    ]
+   ],
+   "summer": [
+    "Dạng lỏng lâu trôi, lớp mỏng, set phấn ngay để không trôi vào nếp nhăn.",
+    "A long-wear liquid in a thin layer. Set with powder right away so it does not slide into lines."
+   ],
+   "winter": [
+    "Dưỡng mắt trước 5 phút, dùng dạng kem mềm, set rất ít phấn.",
+    "Hydrate the eye area 5 minutes first, use a soft cream formula and set with very little powder."
+   ]
+  },
+  {
+   "id": "ma",
+   "name": [
+    "Má hồng",
+    "Blush"
+   ],
+   "short": [
+    "Má",
+    "Cheeks"
+   ],
+   "lead": [
+    "Hồng be, hồng nâu muted, gạch hồng bụi, mauve nâu ấm. Màu trầm, ít rực.",
+    "Beige rose, muted rose brown, dusty rose brick, warm brown mauve. Subdued colours, not vivid."
+   ],
+   "good": [
+    {
+     "n": [
+      "Hồng be",
+      "Beige rose"
+     ],
+     "hex": "#c48b80",
+     "occ": "dwh",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Hồng nâu muted",
+      "Muted rose brown"
+     ],
+     "hex": "#a8685f",
+     "occ": "dwh",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Gạch hồng bụi",
+      "Dusty rose brick"
+     ],
+     "hex": "#b0645a",
+     "occ": "whp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Mauve nâu ấm",
+      "Warm brown mauve"
+     ],
+     "hex": "#9c666c",
+     "occ": "dw",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Gạch hồng",
+      "Rose brick"
+     ],
+     "hex": "#a95548",
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Hồng đất đậm",
+      "Deep earthy rose"
+     ],
+     "hex": "#94524c",
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Đỏ rượu nâu",
+      "Brown wine red"
+     ],
+     "hex": "#7f3f3c",
+     "occ": "p",
+     "role": "",
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Mơ, đào",
+      "Apricot, peach"
+     ],
+     "hex": "#e9997a",
+     "why": [
+      "Nếu da có nền đỏ, đào và cam lên hồng hoặc đỏ cam, khó đoán màu.",
+      "On skin with a red base, peach and orange turn pink or red-orange and are hard to predict."
+     ]
+    },
+    {
+     "n": [
+      "Cam cháy",
+      "Burnt orange"
+     ],
+     "hex": "#c8734f",
+     "why": [
+      "Nếu da có nền đỏ, đào và cam lên hồng hoặc đỏ cam.",
+      "On skin with a red base, peach and orange turn pink or red-orange."
+     ]
+    },
+    {
+     "n": [
+      "Đào rất nhạt",
+      "Very pale peach"
+     ],
+     "hex": "#f6c4ac",
+     "why": [
+      "Quá nhạt so với độ đậm Thu đậm, lên má gần như mất màu.",
+      "Too pale for Deep Autumn depth: it almost disappears on the cheeks."
+     ]
+    },
+    {
+     "n": [
+      "Hồng baby pastel",
+      "Baby pink pastel"
+     ],
+     "hex": "#f4b6c8",
+     "why": [
+      "Pastel lạnh, quá nhạt so với độ đậm Thu đậm.",
+      "A cool pastel, too pale for Deep Autumn depth."
+     ]
+    },
+    {
+     "n": [
+      "Mauve lạnh",
+      "Cool mauve"
+     ],
+     "hex": "#b48c9a",
+     "why": [
+      "Sắc xám tím làm mặt mệt.",
+      "A grey-purple cast makes the face look tired."
+     ]
+    },
+    {
+     "n": [
+      "Fuchsia",
+      "Fuchsia"
+     ],
+     "hex": "#d63c8c",
+     "why": [
+      "Quá lạnh và rực, bị nổi, lệch hẳn màu da.",
+      "Too cool and vivid: it stands out and clashes with the skin."
+     ]
+    }
+   ],
+   "finish": [
+    [
+     "Dạng kem hoặc tint cho hiệu ứng ửng tự nhiên. Nếu da có nền đỏ: đánh ít hơn dự định, màu lên da đậm hơn trong tay.",
+     "Cream or tint for a natural flush. On skin with a red base, apply less than planned: the colour looks deeper on skin than on the hand."
+    ],
+    [
+     "Dạng phấn khi da dầu. Đánh mỏng rồi tăng dần, tán đều viền để không thành mảng.",
+     "Powder for oily skin. Apply lightly and build up, blending the edges so there is no visible patch."
+    ]
+   ],
+   "summer": [
+    "Tint hoặc phấn lâu trôi, hồng be và gạch hồng bụi. Đánh sau phấn phủ để không loang.",
+    "Long-wear tint or powder in beige rose and dusty rose brick. Apply after setting powder so it does not blotch."
+   ],
+   "winter": [
+    "Má kem đánh trước phấn phủ. Hồng đất đậm, đỏ rượu nâu cho tiệc.",
+    "Cream blush before setting powder. Deep earthy rose and brown wine red for parties."
+   ]
+  },
+  {
+   "id": "son",
+   "name": [
+    "Son",
+    "Lipstick"
+   ],
+   "short": [
+    "Son",
+    "Lips"
+   ],
+   "lead": [
+    "Hồng nâu, MLBB hồng, gạch hồng, đỏ gạch nâu, burgundy, mahogany, cacao hồng. Nếu da có nền đỏ, cam và rust dễ lên đỏ cam.",
+    "Rose brown, rosy MLBB, rose brick, brown brick red, burgundy, mahogany, rosy cocoa. On skin with a red base, orange and rust easily turn red-orange."
+   ],
+   "good": [
+    {
+     "n": [
+      "MLBB hồng đất",
+      "MLBB earthy rose"
+     ],
+     "hex": "#b0706a",
+     "occ": "dwh",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Hồng nâu",
+      "Rose brown"
+     ],
+     "hex": "#a0645e",
+     "occ": "dwh",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Gạch hồng",
+      "Rose brick"
+     ],
+     "hex": "#a84a44",
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Cacao hồng đậm",
+      "Deep rosy cocoa"
+     ],
+     "hex": "#7e4b42",
+     "occ": "wh",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Đỏ gạch nâu",
+      "Brown brick red"
+     ],
+     "hex": "#93382a",
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Mahogany",
+      "Mahogany"
+     ],
+     "hex": "#7a3a32",
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Đỏ rượu ấm",
+      "Warm wine red"
+     ],
+     "hex": "#7a2a2c",
+     "occ": "p",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Burgundy nâu",
+      "Brown burgundy"
+     ],
+     "hex": "#6a2f2b",
+     "occ": "p",
+     "role": "",
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Cam tươi",
+      "Bright orange"
+     ],
+     "hex": "#e8732c",
+     "why": [
+      "Nếu da có nền đỏ, cam tươi lên đỏ cam gắt, làm răng ngả vàng.",
+      "On skin with a red base, bright orange turns harsh red-orange and makes teeth look yellow."
+     ]
+    },
+    {
+     "n": [
+      "Đào nhạt",
+      "Pale peach"
+     ],
+     "hex": "#f0a898",
+     "why": [
+      "Quá nhạt so với độ đậm Thu đậm, môi chìm và mặt nhợt.",
+      "Too pale for Deep Autumn depth: lips fade into the face and the face looks washed out."
+     ]
+    },
+    {
+     "n": [
+      "San hô pastel",
+      "Pastel coral"
+     ],
+     "hex": "#f4a58a",
+     "why": [
+      "Quá nhạt, và nếu da có nền đỏ thì đào lên hồng nhạt.",
+      "Too pale, and on skin with a red base peach turns pale pink."
+     ]
+    },
+    {
+     "n": [
+      "Nude be nhạt",
+      "Pale beige nude"
+     ],
+     "hex": "#e6c3ae",
+     "why": [
+      "Quá nhạt, gần màu da.",
+      "Too pale, close to the skin colour."
+     ]
+    },
+    {
+     "n": [
+      "Fuchsia lạnh",
+      "Cool fuchsia"
+     ],
+     "hex": "#c2185b",
+     "why": [
+      "Lạnh và gắt, làm da trông vàng xỉn.",
+      "Cool and harsh, it makes skin look dull yellow."
+     ]
+    },
+    {
+     "n": [
+      "Hồng bạc frost",
+      "Frosted silver pink"
+     ],
+     "hex": "#e8b4c8",
+     "why": [
+      "Nhũ bạc lạnh, lộ vân môi.",
+      "Cool silver shimmer that shows lip lines."
+     ]
+    },
+    {
+     "n": [
+      "Tím mận lạnh",
+      "Cool plum purple"
+     ],
+     "hex": "#6e2a52",
+     "why": [
+      "Ngả tím lạnh, làm răng và da ngả vàng.",
+      "A cool purple cast that makes teeth and skin look yellow."
+     ]
+    }
+   ],
+   "finish": [
+    [
+     "Satin hoặc matte mềm. Lì khô hoàn toàn dễ lộ vân môi vào mùa hanh.",
+     "Satin or soft matte. Fully dry matte shows lip lines in the dry season."
+    ],
+    [
+     "Tint và velvet hợp đi làm vì lâu trôi, dặm ít.",
+     "Tint and velvet suit work: long-wearing, little touch-up."
+    ]
+   ],
+   "summer": [
+    "Tint hoặc matte nhẹ lâu trôi. MLBB hồng đất, gạch hồng cho ngày nóng. Cam đất và rust dễ lên đỏ cam nếu da có nền đỏ, nên thử trước khi mua.",
+    "Long-wear tint or light matte. Earthy rose MLBB and rose brick for hot days. Earthy orange and rust easily turn red-orange on skin with a red base, so test before buying."
+   ],
+   "winter": [
+    "Ủ môi buổi tối, sáng dùng son dưỡng có màu hoặc satin. Đỏ gạch nâu, mahogany, burgundy nâu.",
+    "Prep lips in the evening, and use a tinted balm or satin in the morning. Brown brick red, mahogany, brown burgundy."
+   ]
+  },
+  {
+   "id": "mat",
+   "name": [
+    "Phấn mắt",
+    "Eyeshadow"
+   ],
+   "short": [
+    "Mắt",
+    "Eyes"
+   ],
+   "lead": [
+    "Nền be hồng, màu chính hồng nâu, cacao, gạch hồng; chiều sâu chỉ ở sát chân mi.",
+    "A rosy beige base, main colours in rose brown, cocoa and rose brick; depth only at the lash line."
+   ],
+   "good": [
+    {
+     "n": [
+      "Hồng nâu",
+      "Rose brown"
+     ],
+     "hex": "#b07a6e",
+     "occ": "dwh",
+     "role": [
+      "Màu chính",
+      "Main colour"
+     ],
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Socola",
+      "Chocolate"
+     ],
+     "hex": "#5a3a2c",
+     "occ": "dwhp",
+     "role": [
+      "Màu đậm",
+      "Depth"
+     ],
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Rose gold",
+      "Rose gold"
+     ],
+     "hex": "#c7887e",
+     "occ": "dhp",
+     "role": [
+      "Nhũ",
+      "Shimmer"
+     ],
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Be hồng trung tính",
+      "Neutral rosy beige"
+     ],
+     "hex": "#e6c6b4",
+     "occ": "dwhp",
+     "role": [
+      "Màu nền mắt",
+      "Lid base"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Be cacao nhạt",
+      "Light cocoa beige"
+     ],
+     "hex": "#d9b8a6",
+     "occ": "dwh",
+     "role": [
+      "Màu nền mắt",
+      "Lid base"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Cacao",
+      "Cocoa"
+     ],
+     "hex": "#926454",
+     "occ": "dwh",
+     "role": [
+      "Màu chính",
+      "Main colour"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Gạch hồng muted",
+      "Muted rose brick"
+     ],
+     "hex": "#a8665c",
+     "occ": "whp",
+     "role": [
+      "Màu chính",
+      "Main colour"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Taupe nâu ấm nhẹ",
+      "Soft warm taupe"
+     ],
+     "hex": "#9a7a6c",
+     "occ": "dw",
+     "role": [
+      "Màu chính",
+      "Main colour"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Nâu mahogany",
+      "Mahogany"
+     ],
+     "hex": "#6b3a34",
+     "occ": "hp",
+     "role": [
+      "Màu đậm",
+      "Depth"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Bronze dịu",
+      "Soft bronze"
+     ],
+     "hex": "#a67c5f",
+     "occ": "hp",
+     "role": [
+      "Nhũ",
+      "Shimmer"
+     ],
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Maple, cam cháy",
+      "Maple, burnt orange"
+     ],
+     "hex": "#c0703f",
+     "why": [
+      "Nếu da có nền đỏ, maple và cam cháy lên cam đỏ, mí trông sưng.",
+      "On skin with a red base, maple and burnt orange turn orange-red and the lid looks swollen."
+     ]
+    },
+    {
+     "n": [
+      "Vàng gold nhũ",
+      "Shimmery yellow gold"
+     ],
+     "hex": "#c99a62",
+     "why": [
+      "Ánh vàng làm mí ngả vàng; chọn rose gold hoặc bronze dịu.",
+      "The gold cast turns the lid yellow. Choose rose gold or soft bronze."
+     ]
+    },
+    {
+     "n": [
+      "Nâu đen phủ cả mí",
+      "Black-brown over the whole lid"
+     ],
+     "hex": "#2e211c",
+     "why": [
+      "Phủ cả mí làm mắt trông nhỏ, sưng. Chỉ dùng làm kẻ mắt.",
+      "Over the whole lid it makes eyes look small and puffy. Use it only as liner."
+     ]
+    },
+    {
+     "n": [
+      "Hồng pastel",
+      "Pastel pink"
+     ],
+     "hex": "#f0c4d6",
+     "why": [
+      "Hồng nhạt trên mí làm mắt trông sưng.",
+      "Pale pink on the lid makes eyes look puffy."
+     ]
+    },
+    {
+     "n": [
+      "Đỏ hồng nhạt phủ mí",
+      "Pale red-pink over the lid"
+     ],
+     "hex": "#e8a0a0",
+     "why": [
+      "Đỏ nhạt trên cả mí làm mắt như vừa khóc, sưng.",
+      "Pale red over the whole lid looks like crying and puffy."
+     ]
+    },
+    {
+     "n": [
+      "Nude quá nhạt làm màu chính",
+      "Too-pale nude as main colour"
+     ],
+     "hex": "#eee2d8",
+     "why": [
+      "Chỉ hợp làm màu nền mắt. Dùng làm màu chính thì mắt phẳng, mất chiều sâu.",
+      "Works only as a lid base. As the main colour it flattens the eye and loses depth."
+     ]
+    },
+    {
+     "n": [
+      "Bạc",
+      "Silver"
+     ],
+     "hex": "#dcdde2",
+     "why": [
+      "Ánh bạc lạnh, lộ nhũ và nếp da.",
+      "Cool silver that shows glitter and skin creases."
+     ]
+    },
+    {
+     "n": [
+      "Nhũ băng (icy)",
+      "Icy shimmer"
+     ],
+     "hex": "#e4eef2",
+     "why": [
+      "Ánh xanh lạnh, bị nổi, lệch hẳn màu da.",
+      "A cool blue cast that stands out and clashes with the skin."
+     ]
+    },
+    {
+     "n": [
+      "Xám lạnh",
+      "Cool grey"
+     ],
+     "hex": "#8c8e94",
+     "why": [
+      "Không có sắc ấm, làm bầu mắt trông thâm, mệt.",
+      "No warmth: it makes the eye area look dark and tired."
+     ]
+    },
+    {
+     "n": [
+      "Nhũ hạt to (glitter)",
+      "Chunky glitter"
+     ],
+     "hex": "#e9d6e6",
+     "why": [
+      "Nếu mí dầu, hạt nhũ to trôi vào nếp mí và rơi xuống bọng mắt.",
+      "On oily lids, big glitter particles slide into the lid crease and fall under the eyes."
+     ]
+    }
+   ],
+   "guide": {
+    "title": [
+     "Chọn bảng mắt",
+     "Choosing a palette"
+    ],
+    "rows": [
+     [
+      [
+       "Cách chọn",
+       "How to choose"
+      ],
+      [
+       "Một bảng tốt có đủ 4 vai: nền be hồng trung tính, 2–3 màu chính hồng nâu hoặc cacao, 1 nâu đậm sát chân mi, 1 nhũ rose gold hạt mịn.",
+       "A good palette covers 4 roles: a neutral rosy beige base, 2–3 main colours in rose brown or cocoa, 1 deep brown for the lash line and 1 fine-grain rose gold shimmer."
+      ]
+     ]
+    ],
+    "caveat": [
+     "Mỗi bảng có nhiều phiên bản màu, nên swatch thử tại quầy hoặc dưới ánh sáng tự nhiên.",
+     "Each palette comes in several colourways, so swatch it in store or in natural light."
+    ]
+   },
+   "extraTitle": [
+    "Kỹ thuật tô mắt",
+    "Eyeshadow technique"
+   ],
+   "extra": [
+    "Nền be hồng phủ cả mí lên đến dưới xương chân mày. Màu chính đánh từ chân mi lên đến nếp mí, tán mờ viền trên. Màu đậm (socola, nâu gạch) chỉ ở 1/3 đuôi mắt và sát chân mi, kéo nhẹ ra ngoài theo hướng đuôi mày. Nhũ chấm giữa mí, từ con ngươi vào trong. Viền mắt dưới: màu chính tán mỏng 1/3 ngoài, không đánh cả viền dưới. Nếu mí dầu: lót kem lót mắt, đánh lớp nền lì trước, rồi mới đến màu và nhũ.",
+    "Sweep the rosy beige base over the whole lid up to below the brow bone. Apply the main colour from the lash line up to the crease and blur the upper edge. Keep the depth colour (chocolate, brick brown) to the outer third and the lash line, drawn slightly outwards along the brow tail. Dab shimmer on the centre of the lid, from the pupil inwards. Lower lash line: blend the main colour thinly on the outer third only, not along the whole line. On oily lids: use eye primer, lay a matte base first, then colour and shimmer."
+   ],
+   "finish": [
+    [
+     "Nền và màu chính dùng lì hoặc satin; nhũ hạt mịn chỉ ở giữa mí.",
+     "Matte or satin for the base and main colour; fine shimmer on the centre of the lid only."
+    ],
+    [
+     "Nếu mí dầu: kem lót mắt, phấn lì làm nền, tránh nhũ hạt to và phấn mắt dạng kem không lâu trôi.",
+     "If lids are oily: eye primer and a matte powder base. Avoid chunky glitter and cream shadows that do not last."
+    ]
+   ],
+   "summer": [
+    "Kem lót mắt chống trôi, nền be hồng lì, màu chính hồng nâu hoặc taupe. Kẻ mắt nâu socola chống nước.",
+    "Long-wear eye primer, a matte rosy beige base, rose brown or taupe as the main colour. Waterproof chocolate-brown liner."
+   ],
+   "winter": [
+    "Dạng satin. Gạch hồng muted, nâu mahogany, nhũ rose gold cho các buổi tiệc cuối năm.",
+    "Satin finish. Muted rose brick, mahogany and rose gold shimmer for end-of-year parties."
+   ]
+  },
+  {
+   "id": "khoi",
+   "name": [
+    "Tạo khối",
+    "Contour"
+   ],
+   "short": [
+    "Khối",
+    "Contour"
+   ],
+   "lead": [
+    "Nâu taupe trung tính, đậm hơn da 2–3 tông.",
+    "Neutral taupe brown, 2–3 shades deeper than skin."
+   ],
+   "good": [
+    {
+     "n": [
+      "Taupe nâu trung tính",
+      "Neutral taupe brown"
+     ],
+     "hex": "#957a68",
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Nâu hồng trung tính",
+      "Neutral rosy brown"
+     ],
+     "hex": "#9a7568",
+     "occ": "dh",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Nâu sữa",
+      "Milky brown"
+     ],
+     "hex": "#a8826a",
+     "occ": "dw",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Nâu cacao nhạt",
+      "Light cocoa brown"
+     ],
+     "hex": "#94705a",
+     "occ": "whp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Nâu mát-ấm",
+      "Balanced cool-warm brown"
+     ],
+     "hex": "#8a6c5c",
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Taupe đậm, buổi tối",
+      "Deep taupe, evening"
+     ],
+     "hex": "#7e5e4b",
+     "occ": "p",
+     "role": "",
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Cam bronze",
+      "Orange bronze"
+     ],
+     "hex": "#c27a45",
+     "why": [
+      "Ra vệt cam như cháy nắng, không giống bóng đổ.",
+      "Leaves an orange streak like a sunburn, not a natural shadow."
+     ]
+    },
+    {
+     "n": [
+      "Xám taupe",
+      "Grey taupe"
+     ],
+     "hex": "#8f8580",
+     "why": [
+      "Quá xám so với da ấm, nhìn như vết bẩn.",
+      "Too grey against warm skin: it looks like a smudge of dirt."
+     ]
+    },
+    {
+     "n": [
+      "Nâu đỏ",
+      "Red brown"
+     ],
+     "hex": "#8b4a3a",
+     "why": [
+      "Ngả đỏ, thành mảng ửng thay vì bóng đổ.",
+      "Leans red and becomes a flushed patch instead of a shadow."
+     ]
+    }
+   ],
+   "finish": [
+    [
+     "Lì, không nhũ. Đặt dưới gò má, dọc chân tóc và dưới đầu cằm; tán bằng cọ xiên, đánh mỏng rồi tăng dần.",
+     "Matte, no shimmer. Place it under the cheekbone, along the hairline and under the chin; blend with an angled brush, starting thin and building up."
+    ],
+    [
+     "Dạng kem/stick cho da khô, dạng phấn cho da dầu.",
+     "Cream or stick for dry skin, powder for oily skin."
+    ]
+   ],
+   "summer": [
+    "Dạng phấn, taupe trung tính. Tránh bronzer cam: nếu da có nền đỏ, cam thành mảng đỏ cam.",
+    "Powder in a neutral taupe. Avoid orange bronzer: on skin with a red base it turns into a red-orange patch."
+   ],
+   "winter": [
+    "Taupe trung tính dạng kem hoặc stick, tán khi nền còn ẩm.",
+    "Neutral taupe in cream or stick form, blended while the base is still damp."
+   ]
+  },
+  {
+   "id": "hl",
+   "name": [
+    "Highlight",
+    "Highlight"
+   ],
+   "short": [
+    "Highlight",
+    "Highlight"
+   ],
+   "lead": [
+    "Sáng hơn da rõ ràng, sắc trung tính đến hơi hồng. Không vàng gold.",
+    "Clearly lighter than skin, neutral to slightly pink. No yellow gold."
+   ],
+   "good": [
+    {
+     "n": [
+      "Be hồng nhạt",
+      "Pale rosy beige"
+     ],
+     "hex": "#ffe5da",
+     "occ": "dwh",
+     "role": [
+      "Lì",
+      "Matte"
+     ],
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Champagne be hồng",
+      "Rosy champagne"
+     ],
+     "hex": "#ffe9dc",
+     "occ": "dhp",
+     "role": [
+      "Căng bóng",
+      "Glow"
+     ],
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Pearl be hồng",
+      "Rosy pearl"
+     ],
+     "hex": "#fde9e3",
+     "occ": "hp",
+     "role": [
+      "Nhũ",
+      "Shimmer"
+     ],
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Ivory be trung tính",
+      "Neutral ivory"
+     ],
+     "hex": "#f9e7d5",
+     "occ": "dw",
+     "role": [
+      "Lì",
+      "Matte"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Be sữa",
+      "Milky beige"
+     ],
+     "hex": "#f7e5d4",
+     "occ": "dw",
+     "role": [
+      "Lì",
+      "Matte"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Pearl be",
+      "Pearl beige"
+     ],
+     "hex": "#fdebdd",
+     "occ": "dwh",
+     "role": [
+      "Căng bóng",
+      "Glow"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Peach-pearl trung tính",
+      "Neutral peach pearl"
+     ],
+     "hex": "#ffe8db",
+     "occ": "hp",
+     "role": [
+      "Căng bóng",
+      "Glow"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Be hồng ánh rose gold",
+      "Rose-gold pink beige"
+     ],
+     "hex": "#ffe8dd",
+     "occ": "hp",
+     "role": [
+      "Nhũ",
+      "Shimmer"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Champagne hồng",
+      "Pink champagne"
+     ],
+     "hex": "#feeadf",
+     "occ": "hp",
+     "role": [
+      "Nhũ",
+      "Shimmer"
+     ],
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Soft gold",
+      "Soft gold"
+     ],
+     "hex": "#feecd9",
+     "occ": "p",
+     "role": [
+      "Nhũ",
+      "Shimmer"
+     ],
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Champagne vàng",
+      "Yellow champagne"
+     ],
+     "hex": "#fdedcc",
+     "why": [
+      "Nếu da có nền đỏ, ánh vàng làm da ngả vàng xỉn.",
+      "On skin with a red base, the yellow cast turns skin dull yellow."
+     ]
+    },
+    {
+     "n": [
+      "Vàng gold",
+      "Yellow gold"
+     ],
+     "hex": "#e2b866",
+     "why": [
+      "Vàng đậm, lại không sáng hơn da: thành mảng vàng.",
+      "Deep yellow that is not lighter than skin: it becomes a yellow patch."
+     ]
+    },
+    {
+     "n": [
+      "Vàng đồng",
+      "Bronze gold"
+     ],
+     "hex": "#d4a35c",
+     "why": [
+      "Tối hơn da và vàng: không bắt sáng, chỉ làm mặt ngả vàng.",
+      "Deeper than skin and yellow: it does not catch light, it only turns the face yellow."
+     ]
+    },
+    {
+     "n": [
+      "Trắng nhũ frost",
+      "Frosted white shimmer"
+     ],
+     "hex": "#f6f4f2",
+     "why": [
+      "Thành vệt trắng xám, nhất là khi chụp flash.",
+      "Turns into a greyish white streak, especially under flash."
+     ]
+    },
+    {
+     "n": [
+      "Bạc",
+      "Silver"
+     ],
+     "hex": "#d9dce2",
+     "why": [
+      "Ánh kim lạnh, nhìn như lớp sơn.",
+      "A cool metallic that looks like a coat of paint."
+     ]
+    },
+    {
+     "n": [
+      "Hồng tím lạnh",
+      "Cool purple pink"
+     ],
+     "hex": "#e8cfe6",
+     "why": [
+      "Sắc tím lạnh, bị nổi, lệch hẳn màu da.",
+      "A cool purple cast that stands out and clashes with the skin."
+     ]
+    }
+   ],
+   "extraTitle": [
+    "Ba kiểu highlight",
+    "Three highlight finishes"
+   ],
+   "extra": [
+    "Lì: sáng hơn da 1–2 tông, không nhũ, để làm sáng vùng thái dương lõm, dưới mắt, sống mũi, xương chân mày. Khác che khuyết điểm: che khuyết điểm để che, highlight lì sáng hơn một tông để làm sáng. Căng bóng (glow/satin): dạng kem hoặc lỏng, ngọc trai mịn không thấy hạt, cho vẻ da ướt. Nhũ: thấy rõ hạt lấp lánh, chỉ ở khóe mắt trong.",
+    "Matte: 1–2 shades lighter than skin, no shimmer, to brighten hollow temples, under the eyes, the nose bridge and the brow bone. It differs from concealer: concealer is for covering, a matte highlight one shade lighter is for brightening. Glow (glow/satin): a cream or liquid with fine pearl and no visible particles, for a wet-skin look. Shimmer: visible sparkling particles, only at the inner corner of the eye."
+   ],
+   "finish": [
+    [
+     "Lì: dùng được ở vùng chữ T, thay phấn phủ làm sáng.",
+     "Matte: works on the T-zone, replacing a brightening powder."
+    ],
+    [
+     "Căng bóng: chỉ ở chỗ cần nhấn (đầu mắt, cung môi), tránh vùng chữ T nếu da dễ bóng dầu.",
+     "Glow: only where emphasis is needed (inner eye, cupid's bow). Avoid the T-zone if skin gets shiny."
+    ],
+    [
+     "Nhũ: phủ lớp nền trước rồi mới đánh nhũ; hạt nhũ chỉ đặt đúng chỗ cần nhấn.",
+     "Shimmer: lay a base first, then apply shimmer, placing the particles only where emphasis is needed."
+    ]
+   ],
+   "summer": [
+    "Lì là chính ở thái dương, dưới mắt, thêm chút nhũ ở khóe mắt trong cho tối.",
+    "Matte is the main choice on the temples and under the eyes, with a little shimmer at the inner corner for evenings."
+   ],
+   "winter": [
+    "Kem căng bóng ở đầu mắt, cung môi; thái dương dùng lì. Đánh trước phấn phủ.",
+    "Glow cream at the inner eye and cupid's bow, matte on the temples. Apply before setting powder."
+   ]
+  },
+  {
+   "id": "may",
+   "name": [
+    "Chân mày",
+    "Brows"
+   ],
+   "short": [
+    "Mày",
+    "Brows"
+   ],
+   "lead": [
+    "Nâu trung tính đậm đến nâu xám mềm, sáng hơn tóc nửa tông.",
+    "Deep neutral browns to soft grey-browns, a touch lighter than the hair."
+   ],
+   "good": [
+    {
+     "n": [
+      "Xám nâu đậm",
+      "Deep grey-brown"
+     ],
+     "hex": "#4a4340",
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Nâu tro đậm",
+      "Deep ash brown"
+     ],
+     "hex": "#3d3532",
+     "occ": "dwhp",
+     "role": "",
+     "tier": "Best"
+    },
+    {
+     "n": [
+      "Xám đen mềm",
+      "Soft grey-black"
+     ],
+     "hex": "#342d2b",
+     "occ": "hp",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Nâu xám trung tính",
+      "Neutral grey-brown"
+     ],
+     "hex": "#5a504a",
+     "occ": "dw",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Nâu xám ấm",
+      "Warm grey-brown"
+     ],
+     "hex": "#52463d",
+     "occ": "dwh",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Taupe xám",
+      "Grey taupe"
+     ],
+     "hex": "#655a52",
+     "occ": "dh",
+     "role": "",
+     "tier": "Good"
+    },
+    {
+     "n": [
+      "Nâu xám nhạt (layout nhẹ)",
+      "Light grey-brown (light look)"
+     ],
+     "hex": "#716660",
+     "occ": "dh",
+     "role": "",
+     "tier": "Good"
+    }
+   ],
+   "avoid": [
+    {
+     "n": [
+      "Đen tuyền",
+      "Jet black"
+     ],
+     "hex": "#151313",
+     "why": [
+      "Cứng, làm mặt già và khắc khổ.",
+      "Harsh: it ages the face and looks severe."
+     ]
+    },
+    {
+     "n": [
+      "Xám tro lạnh",
+      "Cool ash grey"
+     ],
+     "hex": "#6e6c6d",
+     "why": [
+      "Xám thuần, không có ánh nâu: chân mày nhìn nhạt và cũ.",
+      "Pure grey with no brown: brows look faded and dated."
+     ]
+    },
+    {
+     "n": [
+      "Xám tro nhạt",
+      "Pale ash grey"
+     ],
+     "hex": "#8a8686",
+     "why": [
+      "Quá nhạt và lạnh, mày mất nét.",
+      "Too pale and cool: the brows lose definition."
+     ]
+    },
+    {
+     "n": [
+      "Nâu đỏ cam",
+      "Orange-red brown"
+     ],
+     "hex": "#8a4a2a",
+     "why": [
+      "Ngả cam đỏ, dễ lệch màu so với tóc.",
+      "Leans orange-red and easily clashes with the hair colour."
+     ]
+    }
+   ],
+   "finish": [
+    [
+     "Chì mảnh vẽ sợi, phấn mày tán nền, gel trong cố định.",
+     "A fine pencil for hair strokes, brow powder to fill, clear gel to set."
+    ],
+    [
+     "Đầu mày nhạt, đuôi mày đậm.",
+     "Light at the head of the brow, deeper at the tail."
+    ]
+   ],
+   "summer": [
+    "Gel mày chống nước hoặc chì lâu trôi.",
+    "Waterproof brow gel or a long-wear pencil."
+   ],
+   "winter": [
+    "Chì hoặc sáp, chải gel trong. Có thể đậm hơn nửa tông nếu tóc rất tối.",
+    "Pencil or wax, brushed with clear gel. Can go half a shade deeper if the hair is very dark."
+   ]
+  }
+ ]
+}

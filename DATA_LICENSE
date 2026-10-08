@@ -1,0 +1,25 @@
+Data licence
+
+The code in this repository is MIT licensed (see LICENSE).
+
+The data is licensed under Creative Commons Attribution 4.0 International
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+This covers:
+  data/layouts-catalog.json     the catalogue of makeup layouts, techniques,
+                                finishes and traditions
+  data/palettes/                the season palettes
+  profiles/demo.json            the fictional demo profile
+
+You may share and adapt the data for any purpose, including commercially, as
+long as you give appropriate credit, link to the licence and say if you made
+changes. A suitable credit line:
+
+  Makeup layout catalogue from openmakeup (https://github.com/japananh/openmakeup), CC BY 4.0.
+
+The catalogue summarises and cites public web pages. Every entry lists the
+pages it was checked against in its "sources" field (and, under "evidence",
+which of them were read). The pages and their text belong to their authors;
+the catalogue links to them and paraphrases facts and technique names, it does
+not republish their articles or images. Colour values are estimates read from
+those pages and are given as a starting point, not as a product specification.

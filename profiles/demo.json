@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "id": "demo",
+  "name": "Linh",
+  "season": "deep-autumn",
+  "colors": {
+    "skin": { "hex": "#d4a37b", "nm": { "hex": ["be ấm trung bình", "medium warm beige"] } },
+    "lip": { "hex": "#b5766b", "nm": { "hex": ["hồng đất vừa", "mid rosy earth"] } },
+    "brow": { "hex": "#4a3a30", "head": "#6b5546", "dark": "#352a23", "nm": { "hex": ["nâu đậm", "dark brown"], "head": ["nâu vừa", "mid brown"], "dark": ["nâu rất đậm", "very deep brown"] } },
+    "hair": { "hex": "#3a2a22", "nm": { "hex": ["nâu đen", "brown-black"] } },
+    "iris": { "hex": "#5a3f30", "nm": { "hex": ["nâu", "brown"] } }
+  },
+  "undertone": { "shift": 6 },
+  "location": { "id": "hcm", "climate": "humid" },
+  "identity": {
+    "tone": ["Da trung bình, ấm trung tính, hơi ánh đỏ", "Medium skin, warm-neutral with a slight red cast"],
+    "traits": [["Mặt tròn mềm", "Soft round face"], ["Mày cong nhẹ", "Softly arched brows"], ["Mắt hạnh nhân", "Almond eyes"]],
+    "type": ["Da hỗn hợp", "Combination"]
+  },
+  "face": {
+    "geometry": {
+      "params": {
+        "shape": "round", "width": 1, "jaw": 1, "chin": 1,
+        "eye": { "gap": 22, "width": 29, "y": 137, "tilt": 3, "open": 8.6, "lower": 3.2, "iris": 6.4 },
+        "brow": { "arch": 3, "thickness": 1.1 },
+        "lips": { "width": 21.5, "full": 1.1, "y": 214 },
+        "nose": { "width": 15 }
+      }
+    },
+    "rules": {
+      "liner": { "style": { "puppy": "short-wing", "long-wing": "short-wing" } },
+      "highlight": { "temple": "#fbeadb" },
+      "contour": { "drop": ["cheek-hollow"], "shade": { "hex": "#8d6e5f", "areas": ["cheekbone-outer", "chin-tip"] } }
+    },
+    "hints": {
+      "brow": ["Mày: giữ dáng cong nhẹ, chỉ điền chỗ thưa.", "Brows: keep a soft arch and fill sparse spots only."],
+      "liner": ["Kẻ mắt: đuôi ngắn, kẻ theo đường mắt, không kẻ dài.", "Liner: a short wing that follows the eye line, never a long one."],
+      "blush": ["Má: đánh ở táo má rồi tán nhẹ ra ngoài.", "Blush: apply on the apples of the cheeks and blend lightly outward."],
+      "contour": ["Tạo khối: nhẹ ở phần ngoài xương gò má và đầu cằm.", "Contour: light on the outer cheekbone and at the chin."],
+      "hl": ["Highlight: lì, đặt ở thái dương và sống mũi.", "Highlight: matte, at the temples and the nose bridge."]
+    },
+    "analysis": {
+      "contrast": ["Vừa (tóc nâu đen, mắt nâu, da trung bình)", "Medium (brown-black hair, brown eyes, medium skin)"],
+      "items": [
+        { "k": ["Dáng mặt", "Face shape"], "v": ["Tròn mềm, trán vừa, cằm tròn", "Soft round, medium forehead, round chin"] },
+        { "k": ["Độ tương phản", "Contrast"], "v": ["Vừa", "Medium"] },
+        { "k": ["Chân mày", "Brows"], "v": ["Dày vừa, nâu đậm, cong nhẹ", "Medium thickness, dark brown, softly arched"] },
+        { "k": ["Mắt", "Eyes"], "v": ["Hạnh nhân, khoảng cách hai mắt cân đối", "Almond-shaped, evenly spaced"] },
+        { "k": ["Mũi", "Nose"], "v": ["Sống mũi vừa, đầu mũi tròn", "Medium bridge, rounded tip"] },
+        { "k": ["Môi", "Lips"], "v": ["Đầy vừa, màu hồng đất", "Medium fullness, rosy-earth colour"] },
+        { "k": ["Da mặt", "Skin"], "v": ["Hỗn hợp, hơi bóng ở vùng chữ T", "Combination, a little shine in the T-zone"] }
+      ],
+      "rules": [
+        ["Kẻ mắt đuôi ngắn, không kẻ dài", "Keep the liner wing short, never long"],
+        ["Tạo khối nhẹ ở phần ngoài xương gò má và đầu cằm", "Contour lightly on the outer cheekbone and at the chin"],
+        ["Highlight lì ở thái dương và sống mũi", "Matte highlight at the temples and the nose bridge"],
+        ["Môi đậm hơn môi thật 1–2 bậc cho cân với mày", "Take the lips 1–2 steps deeper than their natural colour to balance the brows"]
+      ],
+      "note": ["Hồ sơ mẫu của một người hư cấu, chỉ để minh họa. Thay bằng hồ sơ của bạn trong Cài đặt.", "A sample profile for a fictional person, for illustration only. Replace it with your own in Settings."]
+    },
+    "weight": {
+      "level": ["Trung bình", "Medium"],
+      "sub": ["Tóc và mày đậm nhất, môi vừa, hàm nhẹ.", "Hair and brows carry the most weight, lips are medium, the jaw is light."],
+      "rows": {
+        "hair": { "n": 4, "note": ["nâu đen, dày", "brown-black, thick"] },
+        "brows": { "n": 3, "note": ["nâu đậm, vừa", "dark brown, medium"] },
+        "eyes": { "n": 3, "note": ["vừa", "medium"] },
+        "lips": { "n": 3, "note": ["hồng đất, vừa", "rosy earth, medium"] },
+        "jaw": { "n": 2, "note": ["mềm", "soft"] }
+      },
+      "implications": [
+        ["Trang điểm ở mức trung bình là đủ cân với tóc và mày.", "A medium level of makeup is enough to balance the hair and brows."],
+        ["Môi đậm hơn màu thật 1–2 bậc để làm điểm nhấn nửa dưới khuôn mặt.", "Take the lips 1–2 steps deeper than their natural colour as the focus of the lower face."]
+      ]
+    }
+  },
+  "inventory": {
+    "rows": [
+      { "brand": "Sample Co", "product": "Skin Tint", "shade": "Medium", "cat": "nen", "finish": "", "hex": "#d6a881", "confidence": "medium", "pan": "", "role": "" },
+      { "brand": "Sample Co", "product": "Setting Powder", "shade": "Translucent", "cat": "phu", "finish": "", "hex": "", "pan": "", "role": "" },
+      { "brand": "Sample Co", "product": "Cream Blush", "shade": "Rose Clay", "cat": "ma", "finish": "", "hex": "#b5675c", "confidence": "medium", "pan": "", "role": "cream" },
+      { "brand": "Sample Co", "product": "Lip Tint", "shade": "Brick", "cat": "son", "finish": "glossy tint", "hex": "#9b4a40", "confidence": "high", "pan": "", "role": "" },
+      { "brand": "Sample Co", "product": "Brow Pencil", "shade": "Dark Brown", "cat": "may", "finish": "", "hex": "#4d3b30", "confidence": "medium", "pan": "", "role": "" },
+      { "brand": "Sample Co", "product": "Eyeliner Pencil", "shade": "Brown", "cat": "liner", "finish": "", "hex": "", "pan": "", "role": "" },
+      { "brand": "Sample Co", "product": "Eye Palette", "shade": "Warm Neutrals", "cat": "mat", "finish": "matte", "hex": "#e3c3a9", "confidence": "medium", "pan": "1", "role": "" },
+      { "brand": "Sample Co", "product": "Eye Palette", "shade": "Warm Neutrals", "cat": "mat", "finish": "matte", "hex": "#c99a7e", "confidence": "medium", "pan": "2", "role": "" },
+      { "brand": "Sample Co", "product": "Eye Palette", "shade": "Warm Neutrals", "cat": "mat", "finish": "matte", "hex": "#9a6a55", "confidence": "medium", "pan": "3", "role": "" },
+      { "brand": "Sample Co", "product": "Eye Palette", "shade": "Warm Neutrals", "cat": "mat", "finish": "matte", "hex": "#5e3f33", "confidence": "medium", "pan": "4", "role": "" }
+    ],
+    "names": {},
+    "care": [
+      { "id": "cleanser", "name": "Gentle cleanser", "note": ["Sữa rửa mặt", "Cleanser"] },
+      { "id": "moisturiser", "name": "Light moisturiser", "note": ["Kem dưỡng ẩm", "Moisturiser"] },
+      { "id": "sunscreen", "name": "Daily sunscreen SPF50", "note": ["Kem chống nắng", "Sunscreen"] }
+    ]
+  },
+  "routine": {
+    "am": [
+      { "key": "am-clean", "step": ["Sữa rửa mặt", "Cleanser"], "product": "Gentle cleanser" },
+      { "key": "am-moist", "step": ["Dưỡng ẩm", "Moisturiser"], "product": "Light moisturiser" },
+      { "key": "am-spf", "step": ["Kem chống nắng", "Sunscreen"], "product": "Daily sunscreen SPF50" }
+    ],
+    "noon": [],
+    "pm": [
+      { "key": "pm-remove", "step": ["Tẩy trang", "Remove makeup"], "product": "Cleansing oil" },
+      { "key": "pm-clean", "step": ["Sữa rửa mặt", "Cleanser"], "product": "Gentle cleanser" },
+      { "key": "pm-moist", "step": ["Dưỡng ẩm", "Moisturiser"], "product": "Light moisturiser" }
+    ],
+    "meds": []
+  },
+  "checker": {
+    "samples": {
+      "son": [
+        { "id": "brick", "name": "Sample Co Lip Tint Brick", "short": "Lip Tint Brick", "hex": "#9b4a40", "fin": "gloss" },
+        { "id": "nude", "name": "Sample Co Velvet Nude", "short": "Velvet Nude", "hex": "#c08a7a", "fin": "velvet" }
+      ],
+      "may": [
+        { "id": "dkbrown", "name": "Sample Co Brow Pencil Dark Brown", "short": "Brow Dark Brown", "hex": "#4d3b30", "fin": "pencil" },
+        { "id": "ash", "name": "Sample Co Ash Grey Pencil", "short": "Ash Grey", "hex": "#6e6a68", "fin": "pencil" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Copy to scripts/private-markers.local (gitignored) and list your own markers.
+# One regex per line, matched case-insensitively. Blank lines and "#" comments are ignored.
+a1b2c3
+d4e5f6
+exampleMedicationName
+my-photo-stem
+IMG_[0-9]+
+# A "case:" prefix makes the line case-sensitive, e.g. a first name that is also a common word.
+case:Firstname

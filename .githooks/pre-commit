@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Shows what is staged, then blocks the commit on any personal marker.
+git diff --cached --stat
+exec "$(git rev-parse --show-toplevel)/scripts/check-private.sh"

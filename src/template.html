@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>openmakeup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/*@CSS*/
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="app" id="app">
+    <aside class="rail" aria-label="Navigation" data-i18n-aria="nav.nav">
+      <button type="button" class="wordmark" data-go="today" id="rail-brand"></button>
+      <button type="button" class="btn primary rail-check" data-open="checker" id="rail-check"></button>
+      <nav class="rail-nav" id="rail-nav"></nav>
+      <div class="rail-foot">
+        <div class="lang" role="group" data-i18n-aria="lang.label"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+        <button type="button" class="rail-item" data-open="shop" id="rail-shop"></button>
+        <button type="button" class="rail-me" data-go="profile" id="rail-me"><i></i><span><b></b><small data-i18n="nav.profile"></small></span></button>
+      </div>
+    </aside>
+    <header class="topbar">
+      <button type="button" class="wordmark" data-go="today" id="tb-brand"></button>
+      <div class="tb-right">
+        <div class="lang" role="group" data-i18n-aria="lang.label"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+        <button type="button" class="me" data-go="profile" id="tb-me"><i></i><span></span></button>
+        <button type="button" class="icon-btn" data-open="shop" id="tb-bag"></button>
+      </div>
+    </header>
+    <main class="main" id="main"></main>
+    <nav class="tabbar" id="tabbar" aria-label="Navigation" data-i18n-aria="nav.nav"></nav>
+    <div class="scrim" id="scrim" data-close></div>
+    <section class="sheet" id="sh-checker" role="dialog" aria-label="Check a colour"></section>
+    <section class="sheet" id="sh-shop" role="dialog" aria-label="Shopping list" data-i18n-aria="shop.title"></section>
+    <section class="sheet" id="sh-picker" role="dialog" aria-modal="true" aria-label="Pick a colour" data-i18n-aria="pk.title"></section>
+    <div class="toast" id="toast" role="status"></div>
+  </div>
+</div>
+<script>
+/*@SCRIPT*/
+</script>
+</body>
+</html>
